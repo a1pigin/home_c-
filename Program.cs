@@ -5,6 +5,7 @@
 // Console.WriteLine("result is "+ result);
 
 
+
 //Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
 
 // Console.Write("input first number:");
@@ -19,8 +20,8 @@
 // }
 
 
-//Напишите программу, которая будет выдавать название дня недели по заданному номеру.
 
+//Напишите программу, которая будет выдавать название дня недели по заданному номеру.
 
 // Console.Write("input number of day:");
 // int day = Convert.ToInt32(Console.ReadLine());
@@ -58,27 +59,44 @@
 //     Console.Write(current + " ");
 // }
 
-// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
 
+
+// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
 // поэксперементировать с 100 1000 double num % 10
 
 // Console.Write("input N:");
 // int num = Convert.ToInt32(Console.ReadLine());
 // Console.Write(num % 10);
 
+
+
 // Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-Console.WriteLine("Введите num1:");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите num2:");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите num1:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите num2:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 > num2){
-    Console.WriteLine($"{num1} больше");
-    Console.WriteLine($"{num2} меньше");
-}
+// if (num1 > num2){
+//     Console.WriteLine($"{num1} больше");
+//     Console.WriteLine($"{num2} меньше");
+// }
 
-else{
-     Console.WriteLine($"{num2} больше");
-    Console.WriteLine($"{num1} меньше");
-}
+// else{
+//      Console.WriteLine($"{num2} больше");
+//     Console.WriteLine($"{num1} меньше");
+// }
+
+
+
+// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+// Console.WriteLine("Введите первое число:");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число:");
+// int b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третье число:");
+// int c = Convert.ToInt32(Console.ReadLine());
+// int max = Math.Max(a, Math.Max(b, c));
+
+// Console.WriteLine($"Максимальное значение {max}");
